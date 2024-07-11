@@ -8,12 +8,12 @@ import time
 # Initialize the bot with the token from environment variable
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 if not TOKEN:
-    raise ValueError("No TELEGRAM_BOT_TOKEN provided in environment variables")
+    raise ValueError("7274578779:AAFPadSmqpo-7p97m6eFLYN21q361QJt1as")
 
 bot = telebot.TeleBot(TOKEN)
 
 # List of authorized user IDs
-AUTHORIZED_USERS = [6800732852]  # Replace with actual user chat IDs
+AUTHORIZED_USERS = [5113311276]  # Replace with actual user chat IDs
 
 # Regex pattern to match the IP, port, and duration
 pattern = re.compile(r"(\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b)\s(\d{1,5})\s(\d+)")
